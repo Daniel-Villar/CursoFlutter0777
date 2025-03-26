@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:VillarCurso/mi_widgets/mi_tarjeta.dart';
+import 'package:VillarCurso/mi_widgets/dialogo_acerca_de.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 void main() => runApp(MiTarjeta());
@@ -18,7 +18,7 @@ class MiTarjeta extends StatelessWidget {
             title: const Text("Flutter villar"),
             centerTitle: true,
           ),
-          body: LaTarjeta(),
+          body: const DialogoAcercaDe(),
         ));
   }
 }
